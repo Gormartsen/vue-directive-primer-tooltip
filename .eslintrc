@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/essential"
+  ],
+  "plugins": ["vue"],
+  "env": {
+        "browser": true,
+        "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-console": "off",
+    "keyword-spacing": [
+      2,
+      {}
+    ],
+    "camelcase": [
+      1,
+      {
+        "properties": "always"
+      }
+    ],
+    "max-len": [
+      2,
+      100
+    ],
+    "comma-spacing": [
+      2,
+      { "before": false, "after": true }
+    ],
+    "space-infix-ops": [
+      2,
+     {"int32Hint": true}
+    ]
+  }
+}

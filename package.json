@@ -1,0 +1,28 @@
+{
+  "name": "vue-directive-primer-tooltip",
+  "version": "0.1.0",
+  "description": "VueJS directive to use primer tooltip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gormartsen/vue-directive-primer-tooltip.git"
+  },
+  "keywords": [
+    "tooltip",
+    "github",
+    "primer"
+  ],
+  "author": "Gormartsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gormartsen/vue-directive-primer-tooltip/issues"
+  },
+  "homepage": "https://github.com/Gormartsen/vue-directive-primer-tooltip#readme",
+  "dependencies": {
+    "primer-support": "^4.5.2",
+    "primer-tooltips": "^1.5.3"
+  }
+}
