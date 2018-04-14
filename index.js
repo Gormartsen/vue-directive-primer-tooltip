@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'tooltip',
+  name: 'primer-tooltip',
   config: {},
   install: function install(Vue) {
     Vue.directive('primer-tooltip', {
