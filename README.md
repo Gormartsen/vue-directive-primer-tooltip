@@ -4,15 +4,19 @@ Very light and performance oriented.
 
 ### Usage
 
+JS:
+
 ```js
 var Tooltip = require('vue-directive-primer-tooltip')
 Vue.use(Tooltip)
 ```
 
+Template:
 ```html
 <span v-primer-tooltip.ne.no-delay="'my text'">some text</span>
 ```
 
+SCSS:
 ```scss
 @import "vue-directive-primer-tooltip/index.scss"
 ```
@@ -25,4 +29,4 @@ The code is available under the [MIT](LICENSE) license.
 
 ### Contributing
 
-We are open to contributions
+We are open to contributions.
