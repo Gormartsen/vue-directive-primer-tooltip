@@ -18,6 +18,9 @@ function processModifiers(_ref, el) {
   if (typeof _ref.value === 'string') {
     el.setAttribute('aria-label', _ref.value);
   }
+  if(_ref.value == '' || !_ref.value) {
+    return;
+  }
   for (var modifier in _ref.modifiers) {
     setClasses(modifier, el);
   }

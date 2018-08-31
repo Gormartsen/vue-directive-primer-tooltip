@@ -33,6 +33,6 @@ We are open to contributions.
 
 
 ### Changelog
-- 0.1.2 - IE compatibility (no support forEach)
+- 0.1.2 - IE compatibility (no support forEach), If no value - do not apply tooltip
 - 0.1.1 - fix typo for auto update tooltip from computed
 
