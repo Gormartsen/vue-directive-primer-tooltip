@@ -6,7 +6,7 @@ module.exports = {
       inserted: function inserted(el, binding) {
         processModifiers(binding, el);
       },
-      updated: function componentUpdated(el, binding) {
+      update: function componentUpdated(el, binding) {
         cleanClasses(el)
         processModifiers(binding, el);
       } 
@@ -63,9 +63,9 @@ function cleanClasses(el) {
     "tooltipped-nw",
     "tooltipped-no-delay"
   ]
-  classes.forEach(function(item){
-    if (el.classList.contains(item)) {
-      el.classList.remove(item)
-    }  
-  });
+  for(var i in classes) {
+    if (el.classList.contains(classes[i])) {
+      el.classList.remove(classes[i])
+    } 
+  }
 }
