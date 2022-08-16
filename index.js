@@ -3,10 +3,10 @@ module.exports = {
   config: {},
   install: function install(Vue) {
     Vue.directive('primer-tooltip', {
-      inserted: function inserted(el, binding) {
+      mounted: function(el, binding) {
         processModifiers(binding, el);
       },
-      update: function componentUpdated(el, binding) {
+      updated: function(el, binding) {
         cleanClasses(el)
         processModifiers(binding, el);
       } 

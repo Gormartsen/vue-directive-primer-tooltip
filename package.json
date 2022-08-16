@@ -1,6 +1,6 @@
 {
   "name": "vue-directive-primer-tooltip",
-  "version": "0.1.2",
+  "version": "0.3.0",
   "description": "VueJS directive to use primer tooltip",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Gormartsen/vue-directive-primer-tooltip#readme",
   "dependencies": {
-    "primer-support": "^4.5.2",
-    "primer-tooltips": "^1.5.3"
+    "primer-support": "^5.0.0",
+    "primer-tooltips": "^2.0.0"
   }
 }
