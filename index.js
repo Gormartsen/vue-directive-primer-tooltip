@@ -10,7 +10,7 @@ module.exports = {
 }
 
 function processModifiers(_ref, el) {
-  if (el.classList.contains('tooltiped')) {
+  if (el.classList.contains('tooltipped')) {
     return;
   }
   if (typeof _ref.value === 'string') {
