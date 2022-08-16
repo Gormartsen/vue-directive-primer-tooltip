@@ -2,19 +2,17 @@ module.exports = {
   name: 'primer-tooltip',
   config: {},
   install: function install(Vue) {
-    Vue.directive('primer-tooltip', {
-      mounted: function(el, binding) {
+    Vue.directive('primer-tooltip', 
+      function(el, binding) {
         processModifiers(binding, el);
-      },
-      updated: function(el, binding) {
-        cleanClasses(el)
-        processModifiers(binding, el);
-      } 
     });
   }
 }
 
 function processModifiers(_ref, el) {
+  if (el.classList.contains('tooltiped')) {
+    return;
+  }
   if (typeof _ref.value === 'string') {
     el.setAttribute('aria-label', _ref.value);
   }
